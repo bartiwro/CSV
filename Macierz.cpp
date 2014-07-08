@@ -1,6 +1,5 @@
 #include "Macierz.h"
 
-
 Macierz::Macierz()
 {
        // cout << "Tworze macierz i inicjalizuje ja 0!" << endl;
@@ -186,7 +185,7 @@ void Macierz::counted_elements_to_txt()
 }
 void Macierz::plot()
 {
-    system("gnuplot -p ~/Desktop/Lab025/gpscript.gp");
+    system("gnuplot -p ~/Desktop/projekty/Gity/CSV/gpscript.gp");
 }
 
 
